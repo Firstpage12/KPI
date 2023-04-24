@@ -1,5 +1,6 @@
 import {BrowserRouter , Route, Routes} from 'react-router-dom'
 import './App.css';
+import Employee from './components/Employee/Employee';
 import Header from './components/Header/Header'
 import Home from './components/Home/Home';
 function App() {
@@ -15,6 +16,7 @@ function App() {
     
     <Routes>
     <Route path="/Home" element={<Home/>}/>
+    <Route path="/Employee" element={<Employee/>}></Route>
  
     </Routes>
     
