@@ -1,30 +1,108 @@
-.my-form{
-    margin-top: 20px;
-    display:grid;
-    float: inline-end;
-    border: 5px;
-    margin-left: 100px;
-}
-.my-form-group1{
-    border: 2px;
-    margin-right: 20px;
-    margin-top: 50px;
-}
-.my-form-group2{
-    border: 2px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-h1{
-    text-align: center;
-    
-}
-.header{
-    margin: 40px;
-}
-.button{
-    margin-top:40px;
-    text-align: right;
-    float: right;
+.my-form {
+  width: 100%;
+  max-width: 1000px;
+  margin: 60px 0px 130px 145px;
 
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.my-form-group1 {
+  border: 2px;
+
+  margin-top: 50px;
+}
+.my-form-group2 {
+  border: 2px;
+
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+}
+.header {
+  margin: 40px;
+}
+.button {
+  margin-top: 40px;
+  text-align: right;
+  float: right;
+}
+.button1 {
+  margin-top: 40px;
+  text-align: right;
+  float: left;
+}
+.my-dropdown {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 100px;
+  width: 100%;
+}
+
+.my-dropdown option {
+  font-size: 104px;
+  color: #333;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.tab-container {
+  border-radius: 10px 10px 10px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style the edit button */
+.tab-edit-button {
+  background-color: #4286f4; /* set the background color */
+  border: none; /* remove the border */
+  color: #fff; /* set the text color */
+  padding: 2px 20px; /* add some padding */
+  border-radius: 5px; /* add some rounded corners */
+  cursor: pointer; /* change the cursor to a pointer */
+  margin-top: 20px;
+  float: left;
+}
+
+/* Style the edit button on hover */
+.tab-edit-button:hover {
+  background-color: #2662c5; /* darken the background color */
+}
+.download {
+  float: right;
+}
+.link {
+  color: black;
+
+  text-decoration: none;
+}
+
+.link:hover {
+  color: grey;
+}
+.preview {
+  margin: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
 }

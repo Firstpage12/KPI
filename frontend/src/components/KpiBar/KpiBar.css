@@ -2,8 +2,21 @@
     padding: 20px;
     margin-right: 120px;
     margin-left: 100px;
+    
 }
 
 .active {
     background-color: black;
+  }
+  .my-navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+ 
+    height: 50px;
+  }
+  
+ 
+  
+  .my-navbar .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
   }

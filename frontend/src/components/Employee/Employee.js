@@ -3,9 +3,6 @@ import { useNavigate } from "react-router-dom";
 import {
     Form,
     Button,
-    Dropdown,
-    DropdownButton,
-
     Row,
     Col,
     Container,
@@ -15,6 +12,7 @@ import {
 const Employee = () => {
     const navigate = useNavigate();
   return (
+    <Container>
     <Form>
         <Row>
                     <Col md={5}>
@@ -40,12 +38,13 @@ const Employee = () => {
                                 
                             ></Form.Control><br/>
                         </Form.Group >
-                        <Button onClick={() => navigate("/KPI1")}>Start KPI </Button>
+                        <Button type='submit' onClick={() => navigate("/KPI")}>Fill KPI </Button>
                         </Col>
                         </Row>
                         
 
     </Form>
+    </Container>
   )
 }
 
